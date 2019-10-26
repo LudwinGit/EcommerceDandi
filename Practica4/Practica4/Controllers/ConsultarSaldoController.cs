@@ -9,7 +9,7 @@ namespace Practica4.Controllers
     public class ConsultarSaldoController : Controller
     {
         // GET: ConsultarSaldo
-        public ActionResult Index()
+        public ActionResult Index()//Retono Vista
         {
             return View();
         }

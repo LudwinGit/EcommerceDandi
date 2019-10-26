@@ -9,7 +9,7 @@ namespace Practica4.Controllers
     public class RegistroController : Controller
     {
         // GET: Registro
-        public ActionResult RegistroView()
+        public ActionResult RegistroView() //Retorno Vista
         {
             return View();
         }

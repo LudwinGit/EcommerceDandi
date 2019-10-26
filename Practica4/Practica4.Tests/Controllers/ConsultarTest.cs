@@ -7,7 +7,7 @@ namespace Practica3y4.Tests.Controllers
     public class ConsultarTest
     {
         [TestMethod]
-        public void TestConsultaSaldo()
+        public void TestConsultaSaldo() //Test de Vista
         {
             ConsultarSaldoController con = new ConsultarSaldoController();
             bool result = con.consulta(12345678);

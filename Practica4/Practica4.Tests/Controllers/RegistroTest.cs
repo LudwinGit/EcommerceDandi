@@ -9,7 +9,7 @@ namespace Practica3y4.Tests.Controllers
     public class RegistroTest
     {
         [TestMethod]
-        public void TestView()
+        public void TestView() //Test de Vista
         {
             RegistroController controlller = new RegistroController();
             ViewResult result = controlller.RegistroView() as ViewResult;
