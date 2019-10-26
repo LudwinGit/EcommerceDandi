@@ -68,3 +68,4 @@ C:\Users\Andrea\Desktop\ayd\practica3y4_grupo7\Practica4\Practica4.Tests\bin\Deb
 C:\Users\Andrea\Desktop\ayd\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Andrea\Desktop\ayd\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.dll
 C:\Users\Andrea\Desktop\ayd\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.pdb
+
