@@ -87,6 +87,8 @@
     <Compile Include="Controllers\TransferenciaMonetariaTest.cs" />
     <Compile Include="Controllers\LoginTest.cs" />
     <Compile Include="Controllers\PerfilTest.cs" />
+    <Compile Include="Controllers\ConsultarTest.cs" />
+    <Compile Include="Controllers\RegistroTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
