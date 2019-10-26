@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Practica3y4.Controllers;
+using Practica4.Controllers;
 using System.Web.Mvc;
 
 namespace Practica3y4.Tests.Controllers

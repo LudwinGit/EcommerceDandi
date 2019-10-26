@@ -1,7 +1,5 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Practica3y4.Controllers;
-using System.Web.Mvc;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Practica4.Controllers;
 
 namespace Practica3y4.Tests.Controllers
 {

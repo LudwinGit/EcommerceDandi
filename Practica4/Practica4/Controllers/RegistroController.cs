@@ -9,12 +9,12 @@ namespace Practica4.Controllers
     public class RegistroController : Controller
     {
         // GET: Registro
-        public ActionResult Index()
+        public ActionResult RegistroView()
         {
             return View();
         }
 
-        public bool validarCAmpos(int usuario, string nombre, string apellidos, int dpi, int cuenta, string password)
+        public bool validarCAmpos(string nombre, string apellidos, int dpi, int cuenta, string password)
         {
             throw new NotImplementedException();
             /*if(usuario != 0  && nombre != "" && apellidos!="" && dpi!=0 && cuenta!=0 && password!=""){
