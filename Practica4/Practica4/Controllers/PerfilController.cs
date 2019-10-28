@@ -9,7 +9,7 @@ namespace Practica4.Controllers
     public class PerfilController : Controller
     {
         // GET: Perfil
-        public ActionResult Index()
+        public ActionResult vPerfil()
         {
             return View();
         }

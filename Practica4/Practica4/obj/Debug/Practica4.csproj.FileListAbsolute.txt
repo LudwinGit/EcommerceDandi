@@ -201,3 +201,4 @@ C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4\obj\Debug
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.dll
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.pdb
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
+C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache

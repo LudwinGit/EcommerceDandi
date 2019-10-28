@@ -274,11 +274,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Perfil\vPerfil.cshtml" />
+    <Content Include="Views\Login\vLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\ConsultarSaldo\" />
-    <Folder Include="Views\Login\" />
     <Folder Include="Views\Registro\" />
   </ItemGroup>
   <ItemGroup>
