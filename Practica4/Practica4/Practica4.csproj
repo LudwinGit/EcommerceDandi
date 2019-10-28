@@ -275,11 +275,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Perfil\vPerfil.cshtml" />
     <Content Include="Views\Login\vLogin.cshtml" />
+    <Content Include="Views\Registro\RegistroView.cshtml" />
+    <Content Include="Views\ConsultarSaldo\ConsultarView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\ConsultarSaldo\" />
-    <Folder Include="Views\Registro\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
