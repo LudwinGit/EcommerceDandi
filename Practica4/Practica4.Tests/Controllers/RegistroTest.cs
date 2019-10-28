@@ -3,13 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Practica4.Controllers;
 using System.Web.Mvc;
 
-namespace Practica3y4.Tests.Controllers
+namespace Practica4.Tests.Controllers
 {
     [TestClass]
     public class RegistroTest
     {
         [TestMethod]
-        public void TestView() //Test de Vista
+        public void TestView()
         {
             RegistroController controlller = new RegistroController();
             ViewResult result = controlller.RegistroView() as ViewResult;
@@ -21,7 +21,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController controller = new RegistroController();
             bool test = controller.validarCAmpos("Rick", "Alvarez", 13344554, 34345665, "1234");
-            Assert.IsNotNull(test);
+            Assert.IsTrue(test);
         }
 
         [TestMethod]
@@ -29,7 +29,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController con = new RegistroController();
             bool result = con.verificarUsuario(1234567);
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -37,7 +37,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController con = new RegistroController();
             bool result = con.verificarUsuario(12345657);
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -45,7 +45,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController controller = new RegistroController();
             bool result = controller.verificarPassword("usuaio1234");
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -53,7 +53,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController controller = new RegistroController();
             bool result = controller.verificarPassword("usuaio1234");
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -61,7 +61,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController con = new RegistroController();
             bool result = con.validarNoUsuario(1243454534);
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -69,7 +69,7 @@ namespace Practica3y4.Tests.Controllers
         {
             RegistroController con = new RegistroController();
             bool result = con.validarNoUsuario(1243454534);
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result);
         }
     }
 }
