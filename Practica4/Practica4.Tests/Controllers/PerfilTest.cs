@@ -14,7 +14,7 @@ namespace Practica4.Tests.Controllers
             PerfilController controller = new PerfilController();
 
             // Act
-            var result = controller.Index() as ViewResult;
+            var result = controller.vPerfil() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
