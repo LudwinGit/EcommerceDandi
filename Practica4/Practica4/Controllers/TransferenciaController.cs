@@ -13,8 +13,8 @@ namespace Practica4.Controllers
 {
     public class TransferenciaController : Controller
     {
-        public string usuario_sesion = "2";
-        public string no_cuenta_sesion = "1234567891024";
+        public string usuario_sesion = "";
+        public string no_cuenta_sesion = "";
 
 
        public static string  nombre_transaccion = "";
@@ -49,7 +49,7 @@ namespace Practica4.Controllers
             else
             {
                 insertarBD(monto);
-                @TempData["message"] = "Transferencia exitoso";
+                @TempData["message"] = "Transferencia exitosa";
             }
            
             return View();
@@ -59,7 +59,7 @@ namespace Practica4.Controllers
         public string getsaldo()
         {
             string nuevo;
-            
+            no_cuenta_sesion = Session["CUENTA"].ToString();
             string consulta = "select saldo from usuario where no_cuenta=" + no_cuenta_sesion;
             DataTable dt = consultarBD(consulta);
             if (dt != null)
@@ -133,7 +133,8 @@ namespace Practica4.Controllers
 
         public  bool insertarBD(float monto)
         {
-           
+            no_cuenta_sesion = Session["CUENTA"].ToString();
+            usuario_sesion = Session["ID"].ToString();
             string credenciales = "server=.; database=Practica3y4 ; integrated security = true";
             SqlConnection conexion = new SqlConnection(credenciales);
             SqlDataAdapter adaptador = new SqlDataAdapter();

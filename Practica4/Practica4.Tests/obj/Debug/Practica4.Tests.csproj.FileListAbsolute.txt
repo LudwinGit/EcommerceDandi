@@ -140,3 +140,6 @@ C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4.Tests\bin
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4.Tests\bin\Debug\es\EntityFramework.resources.dll
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
 C:\Users\Ludwin\Desktop\Entrega\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.csproj.CopyComplete
+C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.dll
+C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4.Tests\obj\Debug\Practica4.Tests.pdb

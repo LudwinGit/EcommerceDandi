@@ -29,14 +29,15 @@ using System.Web.Mvc;
             ViewBag.Aficion = apellido;
             ViewBag.MiEdad = edad;
             List<ObjectUsuario> milista= getCuenta(nombre,apellido,edad);
-            if(milista.Count==0)
+            if (milista.Count == 0)
             {
-            Response.Write("<script>alert('Error: El usuario: "+nombre+" "+apellido+" no tiene cuenta,verifique los datos');</script>");
+                Response.Write("<script>alert('Error: El usuario: " + nombre + " " + apellido + " no tiene cuenta,verifique los datos');</script>");
+                return View();
             }
-            TempData["nombre"] = nombre;
-            TempData["apellido"] = apellido;
-            TempData["cuenta"] = edad;
-
+           
+                TempData["nombre"] = nombre;
+                TempData["apellido"] = apellido;
+                TempData["cuenta"] = edad;
 
             return RedirectToAction("vTransferencia", "Transferencia");
         }

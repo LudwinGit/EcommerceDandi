@@ -12,7 +12,7 @@ namespace Practica4.Controllers
     public class LoginController : Controller
     {
         // GET: Login
-        static string server = "DESKTOP-39C8GSB";
+        static string server = ".";
         // GET: Login
         public ActionResult vLogin()
         {
