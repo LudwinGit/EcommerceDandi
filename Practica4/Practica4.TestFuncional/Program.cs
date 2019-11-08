@@ -17,7 +17,7 @@ namespace Practica4.TestFuncional
             //TestLoginFail();
 
             //REGISTRO DE USUARIOS
-            //TestRegistroSuccess();
+            TestRegistroSuccess();
             //TestRegistroFail();
 
             //PERFIL

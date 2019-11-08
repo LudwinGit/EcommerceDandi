@@ -8,3 +8,4 @@ C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4.TestFunciona
 C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4.TestFuncional\bin\Debug\WebDriver.Support.xml
 C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4.TestFuncional\obj\Debug\Practica4.TestFuncional.exe
 C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4.TestFuncional\obj\Debug\Practica4.TestFuncional.pdb
+C:\Users\Huriel\Source\Repos\practica3y4_grupo7\Practica4\Practica4.TestFuncional\obj\Debug\Practica4.TestFuncional.csprojResolveAssemblyReference.cache

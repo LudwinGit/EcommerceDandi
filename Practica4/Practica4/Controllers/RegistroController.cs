@@ -32,12 +32,14 @@ namespace Practica4.Controllers
                         if (verificarPassword(password))
                         {
                             accionRegistrar(nombre, apellidos, dpi, mail, cuenta, password);
-                            //Page.ClientScript.RegisterStartupScript(GetType(), "Show Modal Popup", "alert ('Debe llenar todos los campos');", true);
+                            @TempData["message"] = "Registro Exitoso...!!!";
+                            return RedirectToAction("RegistroView", "Registro");
                         }
                     }
                 }
 
             }
+            @TempData["message"] = "Error En El Registro...!!!";
             return RedirectToAction("RegistroView", "Registro");
         }
 
@@ -120,7 +122,7 @@ namespace Practica4.Controllers
 
         public bool verificarUsuario(double user)
         {
-            if (Math.Floor(Math.Log10(user)) > 6)
+            if (Math.Floor(Math.Log10(user)) > 5)
             {
                 return true;
             }
