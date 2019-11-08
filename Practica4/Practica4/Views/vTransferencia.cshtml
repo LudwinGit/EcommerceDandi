@@ -1,10 +1,10 @@
 ﻿
 @{
     ViewBag.Title = "Transferencia Monetaria";
-  /*  if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
+    if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
     {
         Response.Redirect("~/Login/vLogin");
-    }*/
+    }
 }
 
 <h2 align="center">Transferencia Monetaria</h2>
@@ -23,7 +23,9 @@
 
 
     <h3>@TempData["message"] </h3>
+    <a href="@Url.Action("vPerfil", "Perfil")" class="btn btn-lg btn-warning" id="consultar">Atras</a>
 </form>
+
 
 
 

@@ -1,16 +1,15 @@
 ﻿
 @{
     ViewBag.Title = "Transferencia Monetaria";
-  /*  if(Session["CUENTA"]==null || Session["NOMBRE"]==null)
+    if(Session["CUENTA"]==null || Session["NOMBRE"]==null)
     {
           Response.Redirect("~/Login/vLogin");
-    }*/
+    }
 }
 
 <h2 align="center">Transferencia Monetaria</h2>
 <h2 align="center">Bienvenido(a) @Session["NOMBRE"]</h2>
 <h5 align="center">Coloque los datos de la persona a la que le desea realizar una transferencia</h5>
-
 <form method="post">
     <br />
     <table align="center">
@@ -29,8 +28,9 @@
             <td> <input type="number" name="edad" id="txtEdad" /> </td>
         </tr>
         <tr><td><button type="submit">Enviar información</button></td></tr>
-            
+        
 </table>
+    
 </form>
 <hr />
 

@@ -74,7 +74,7 @@ namespace Practica4.Controllers
         public bool consulta(double cuenta)
         {
             saldo = 0;
-            string credenciales = "server=RODOLFO-HP\\SQL2017;database=Practica3y4;integrated security=true";
+            string credenciales = "server=.;database=Practica3y4;integrated security=true";
             SqlConnection con = new SqlConnection(credenciales);
             SqlCommand command = new SqlCommand();
 

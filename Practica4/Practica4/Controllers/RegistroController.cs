@@ -43,7 +43,7 @@ namespace Practica4.Controllers
 
         public void accionRegistrar(string nombre, string apellidos, double dpi, string mail, double cuenta, string password)
         {
-            string credenciales = "server=RODOLFO-HP\\SQL2017;database=Practica3y4;integrated security=true";
+            string credenciales = "server=.;database=Practica3y4;integrated security=true";
             SqlConnection con = new SqlConnection(credenciales);
             SqlCommand command = new SqlCommand();
 
