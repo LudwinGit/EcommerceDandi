@@ -1,10 +1,10 @@
 ﻿
 @{
     ViewBag.Title = "Transferencia Monetaria";
-  /*  if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
+   if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
     {
         Response.Redirect("~/Login/vLogin");
-    }*/
+    }
 }
 
 <h2 align="center">Transferencia Monetaria</h2>
@@ -17,7 +17,7 @@
             <td><input type="number" name="monto" id="txtNombre" /></td>
         </tr>
       
-        <tr><td><button type="submit">Realizar Transferencia</button></td></tr>
+        <tr><td><button id="transferir" type="submit">Realizar Transferencia</button></td></tr>
 
     </table>
 

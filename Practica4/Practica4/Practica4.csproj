@@ -329,9 +329,12 @@
     <Content Include="Views\vTransferencia.cshtml" />
     <Content Include="Views\vTransMonetaria.cshtml" />
     <Content Include="Views\TipoCambio\Index.cshtml" />
+    <Content Include="Views\Transferencia\vTransferencia.cshtml" />
+    <Content Include="Views\TransMonetaria\vTransMonetaria.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
