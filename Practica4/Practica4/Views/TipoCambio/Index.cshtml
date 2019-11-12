@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Tipo cambio";
+    if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
+    {
+        Response.Redirect("~/Login/vLogin");
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tipo Cambio</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Cambio del día </h1>
+
+        <p>Fecha: @ViewBag.tipoCambio</p>
+        <p>Cambio: @ViewBag.referencia</p>
+
+        <p>@ViewBag.fecha</p>
+    </div>
+
+    <div>
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="date" id="date" name="date" class="form-control" required/>
+            </div>
+            <input type="submit" id="cambio" class="btn btn-primary" value="Consultar" />
+        </form>
+        <table class="table table-bordered" >
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Venta</th>
+                    <th>Compra</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ foreach (var item in ViewBag.tabla)
+                    {
+                    <tr>
+                        <td>@item.fecha</td>
+                        <td>@item.venta</td>
+                        <td>@item.compra</td>
+                    </tr>
+                    }                    
+               }
+
+            </tbody>
+        </table>
+    </div>
+    <a href="@Url.Action("vPerfil", "Perfil")" class="btn btn-lg btn-warning" id="consultar">Atras</a>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Perfil de Usuario";
+    if (Session["CUENTA"] == null || Session["NOMBRE"] == null)
+    {
+        Response.Redirect("~/Login/vLogin");
+    }
+}
+
+
+<div>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Perfil de Usuario</h1>
+    </div>
+
+    <div id="form-div" style="text-align:center">
+        <h2>Bienvenido(a) @Session["NOMBRE"]...!!!</h2>
+        <h3>No. Cuenta: @Session["CUENTA"]</h3>
+        @*<h3>Saldo Actual: @Session["SALDO"]</h3>*@
+        <div class="row">
+            <br />
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-body">
+                        <fieldset>
+                            <br />
+                            <a href="@Url.Action("ConsultarView", "ConsultarSaldo")" class="btn btn-lg btn-primary btn-block" id="consultar">Consultar Saldo</a>
+                            <br /><br />
+                            <a href="@Url.Action("vTransMonetaria", "TransMonetaria")" class="btn btn-lg btn-primary btn-block" id="transferencia">Transferencia Monetaria</a>
+                            <br /><br />
+                            <a href="@Url.Action("Index", "TipoCambio")" class="btn btn-lg btn-primary btn-block" id="tipoCambio">Tipo de Cambio</a>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

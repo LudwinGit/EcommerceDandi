@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    
+
+    @{
+        if (Session["CUENTA"] != null && Session["NOMBRE"] != null)
+        {
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                @Html.ActionLink("Bienvenido(a) " + Session["NOMBRE"] + "...!!! - (" + Session["CUENTA"] + ")", "vPerfil", "Perfil", routeValues: null, htmlAttributes: new { title = "Manage" })
+                            </li>
+                            <li>@Html.ActionLink("Log Out", "CerrarSesion", "Login", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>Fecha: @DateTime.Now.Day / @DateTime.Now.Month / @DateTime.Now.Year - Grupo 7</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
