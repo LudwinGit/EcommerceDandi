@@ -406,5 +406,3 @@ C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica
 C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
 C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.dll
 C:\Users\Andrea\Desktop\practica3Andrea\ay\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.pdb
-C:\Users\Rodolfo\Source\Repos\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.dll
-C:\Users\Rodolfo\Source\Repos\practica3y4_grupo7\Practica4\Practica4\obj\Debug\Practica4.pdb
