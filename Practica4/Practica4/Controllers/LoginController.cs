@@ -14,14 +14,14 @@ namespace Practica4.Controllers
         // GET: Login
         static string server = ".";
         // GET: Login
-        public ActionResult vLogin()
+        public ActionResult vLoginJAJA() //vLogin()
         {
             if (Session["CUENTA"] != null)
             {
                 return RedirectToAction("vPerfil", "Perfil");
             }
-
-            return View();
+            aqui hay un error
+            //return View();
         }
 
         public ActionResult Loguear(string user, string password)
